@@ -9,10 +9,14 @@ const App: FC = () => {
     <Router>
       <Navbar/>
 
-      <Routes>
-      <Route path="/register" element={<RegisterGuest/>}/>
-      <Route path="*" element={<NotFound/>}/>
-      </Routes>
+        <article className='container'>
+        <Routes>
+
+        <Route path="/register" element={<RegisterGuest/>}/>
+        <Route path="*" element={<NotFound/>}/>
+        </Routes>
+
+        </article>
     </Router>
   )
 }

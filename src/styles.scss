@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media only screen and (min-width: 992px) {
+      @content;
+    }
+  }
+  
+  @mixin large {
+    @media only screen and (min-width: 1200px) {
+      @content;
+    }
+  }
+
+  .container{
+    @include desktop {
+        margin-right: 5vw;
+        margin-left: 5vw;
+      }
+
+}
