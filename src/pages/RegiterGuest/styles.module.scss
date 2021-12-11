@@ -1,24 +1,19 @@
 @import '../../styles.scss';
 
-.header{
-    background-color:  rgb(233, 79, 79);
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+.content{    
+    @include md {
+        display: flex;
+        margin-right: 3vw;
+        margin-left: 3vw;
+      }
 
-    .category{
-        background-color: rgb(73, 73, 247);
-        width: max-content;
-        padding: 1%;
-        border-radius: 10%;
-        color: white;
+    .info{
+        width: 100%;
+        background-color: yellowgreen;
     }
 
-    .title{
-        font-size: 40px;
-        margin: 3%;
+    .form{
+        width: 100%;
+        background-color: rgb(212, 202, 221);
     }
 }

@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar:FC = () => {
     return (
-        <div>
+        <nav>
             <ul>
                 <li>
                     <NavLink to="/register">Register</NavLink>
                 </li>
             </ul>
-        </div>
+        </nav>
     )
 }
 
