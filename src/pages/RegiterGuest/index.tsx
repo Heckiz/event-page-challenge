@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import EventInfo from '../../components/RegisterGuest/EventInfo/EventInfo'
 import Header from '../../components/RegisterGuest/Header/Header'
-import RegisterForm from '../../components/RegisterGuest/RegisterForm/RegisterForm'
+import RegisterForm from '../../components/RegisterGuest/GuestForm/GuestForm'
 import style from './styles.module.scss'
 
 
