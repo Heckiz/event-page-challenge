@@ -1,0 +1,41 @@
+@import '../../styles.scss';
+
+
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+
+    @include md {
+        flex-direction: row;
+
+        margin:0.5%;
+      }
+    .copyright{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        margin: 1%;
+        color: rgb(41, 39, 39);
+    }
+
+    .socialIcons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        :hover{
+            transform: translateY(-15%);
+
+        }
+        img{
+            width: 5vw;
+            height: 5vh;
+            margin: 0.5%;
+            cursor: pointer;
+            filter: invert(35%) sepia(10%);
+            transition: all 0.3s;
+        }
+    }
+}
