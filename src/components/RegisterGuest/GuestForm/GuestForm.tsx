@@ -14,51 +14,54 @@ const GuestForm: FC = () => {
   const onSubmit = (data: guestData) => console.log(data);
 
   return (
-    <form className={style.form} onSubmit={handleSubmit(onSubmit)}>
-      <CustomInput
-        inputName="name"
-        label="Name"
-        register={register}
-        errors={errors}
-      />
+      <form className={style.form} onSubmit={handleSubmit(onSubmit)}>
 
-      <CustomInput
-        inputName="lastname"
-        label="Last Name"
-        register={register}
-        errors={errors}
-      />
+      <span>¡Register and reserve your place now!</span>
 
-      <CustomInput
-        inputName="email"
-        label="Email"
-        register={register}
-        errors={errors}
-      />
+        <CustomInput
+          inputName="name"
+          label="Name"
+          register={register}
+          errors={errors}
+        />
 
-      <CustomInput
-        inputName="country"
-        label="Country"
-        register={register}
-        errors={errors}
-      />
+        <CustomInput
+          inputName="lastname"
+          label="Last Name"
+          register={register}
+          errors={errors}
+        />
 
-      <CustomInput
-        inputName="phone"
-        label="Phone"
-        register={register}
-        errors={errors}
-      />
+        <CustomInput
+          inputName="email"
+          label="Email"
+          register={register}
+          errors={errors}
+        />
 
-      <CustomInput
-        inputName="job"
-        label="Job"
-        register={register}
-        errors={errors}
-      />
+        <CustomInput
+          inputName="country"
+          label="Country"
+          register={register}
+          errors={errors}
+        />
 
-      <button type="submit">Submit</button>
-    </form>
+        <CustomInput
+          inputName="phone"
+          label="Phone"
+          register={register}
+          errors={errors}
+        />
+
+        <CustomInput
+          inputName="job"
+          label="Job"
+          register={register}
+          errors={errors}
+        />
+
+        <button type="submit">Register</button>
+      </form>
   );
 };
 

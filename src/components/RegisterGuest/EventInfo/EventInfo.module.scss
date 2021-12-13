@@ -1,24 +1,35 @@
+@import '../../../styles.scss';
+
+
 .textStyle{
-    font-size: 20px;
+    font-family: "Proxima Nova Regular";
+    font-size: 18px;
     width: 100%;
-    margin: 2%;
+    margin: 3%;
+
+    @include md {
+        font-size: 20px;
+    }
+
 }
 
 .participants {
-
+    list-style: none;
+    padding-left: 0%;
+    margin: 4%;
     li{
     width: 100%;
     margin-top: 3%;
     margin-bottom: 3%;
-    list-style: none;
+
     text-align: center;
     h2{
-        font-weight:bolder;
+        font-family: "Sharp Sans Bold";
         color:rgb(20, 20, 20);
     }
 
     h4{
-        font-weight:lighter;
+        font-family: "Sharp Sans Medium";
     }
     
 }}

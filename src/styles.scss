@@ -21,3 +21,50 @@
       @content;
     }
   }
+
+
+  @font-face {
+    font-family: 'Sharp Sans Medium';
+    font-style: normal;
+    src: local('Sharp Sans Medium'), local('Sharp Sans Medium'),
+       url('../public/assets/fonts/SharpSansNo1Medium-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/assets/fonts/SharpSansNo1Medium-Regular.woff') format('woff'), /* Modern Browsers */
+ }
+
+ @font-face {
+  font-family: 'Sharp Sans Bold';
+  font-style: normal;
+  src: local('Sharp Sans Bold'), local('Sharp Sans Bold'),
+     url('../public/assets/fonts/SharpSansNo1-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../public/assets/fonts/SharpSansNo1-Bold.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  font-style: normal;
+  src: local('Proxima Nova Regular'), local('Proxima Nova Regular'),
+     url('../public/assets/fonts/proximanova-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../public/assets/fonts/proximanova-regular-webfont.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  font-style: normal;
+  src: local('Proxima Nova Bold'), local('Proxima Nova Bold'),
+     url('../public/assets/fonts/proxima_nova_bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../public/assets/fonts/proxima_nova_bold-webfont.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Shsn Web Font';
+  font-style: normal;
+  src: local('Shsn Web Font'), local('Shsn Web Font'),
+     url('../public/assets/fonts/shsn-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../public/assets/fonts/shsn-webfont.woff2') format('woff'), /* Modern Browsers */
+}
+
+
+
+
+
+

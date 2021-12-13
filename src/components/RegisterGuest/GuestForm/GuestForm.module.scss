@@ -1,21 +1,30 @@
+@import '../../../styles.scss';
+
 .form{
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin: 5%;
     align-items: center;
+    font-family: "Shsn Web Font";
+    span{
+    font-size: 18px;
+    text-align: center;     
+    margin-bottom: 4%;
+    }
+    
     .label{
         width: 70%;
-        font-weight: bolder;
-        font-family: serif;
-        color: rgb(34, 33, 33);
+        color: rgb(32, 32, 32)
     }
 
     .input{
+        font-family: "Shsn Web Font";
+
         width: 70%;
         height: 5vh;
         border-color: rgb(74, 74, 233);
-        border-radius: 5px;
+        border-radius: 2px;
         margin: 0%;
     }
 
@@ -23,5 +32,21 @@
         width: 68%;
         color:rgb(243, 67, 67);
         font-size: 80%;
+    }
+
+    button{
+        margin: 2%;
+        border:none;
+        cursor: pointer;
+        font-size: 16px;
+        width: 70%;
+        background-color: seagreen;
+        border-radius: 2px;
+        color: white;
+        height: 30px;
+
+        @include md {
+            font-size: 18px;
+          }
     }
 }
