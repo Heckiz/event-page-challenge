@@ -19,9 +19,9 @@ const EventList: FC = () => {
         <span>error</span>
       ) : (
         <div className={styles.scroll}>
-          {response?.data.map((e: RootObject) => (
-            <Link to={`/events/${e.id}`} >
-            <Header data={e.headerData} />
+          {response?.data.map((e: RootObject, index: number) => (
+            <Link key={index} to={`/events/${e.id}`}>
+              <Header data={e.headerData} />
             </Link>
           ))}
         </div>

@@ -1,16 +1,20 @@
-import { FC } from 'react'
-import { NavLink } from 'react-router-dom'
+import { FC } from "react";
+import { NavLink, useLocation } from "react-router-dom";
+import styles from "./Navbar.module.scss";
 
-const Navbar:FC = () => {
-    return (
-        <nav>
-            <ul>
-                <li>
-                    <NavLink to="/register">Register</NavLink>
-                </li>
-            </ul>
+const Navbar: FC = () => {
+  const location = useLocation();
+  return (
+    <>
+      {location.pathname === "/" || location.pathname === "/events" ? (
+        null
+      ) : (
+        <nav className={styles.navBar}>
+          <NavLink to="/events">View all events</NavLink>
         </nav>
-    )
-}
+      )}
+    </>
+  );
+};
 
-export default Navbar
+export default Navbar;

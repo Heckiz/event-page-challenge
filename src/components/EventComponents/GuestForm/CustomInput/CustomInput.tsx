@@ -3,7 +3,6 @@ import style from "../GuestForm.module.scss";
 import {
   FieldErrors,
   FieldValues,
-  FormState,
   UseFormRegister,
 } from "react-hook-form";
 

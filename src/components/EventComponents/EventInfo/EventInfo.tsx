@@ -6,10 +6,13 @@ const EventInfo: FC<{ data: EventInfoData }> = ({ data }) => {
   return (
     <>
       <ParnerBar parners={data.parners} />
+
+      {/* Details of the events */}
       {data.details.map((p, index) => (
         <p key={index} className={styles.textStyle}>{p}</p>
       ))}
 
+      {/* Participants */}
       <ul className={styles.participants}>
         {data.participants.map((person, index) => (
           <li key={index}>
@@ -18,7 +21,8 @@ const EventInfo: FC<{ data: EventInfoData }> = ({ data }) => {
           </li>
         ))}
       </ul>
-
+      
+      {/* Final message */}
       <p className={styles.textStyle}>{data.finalMessage}</p>
 
       <ParnerBar parners={data.parners} />
