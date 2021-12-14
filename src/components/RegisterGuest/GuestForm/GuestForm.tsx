@@ -2,8 +2,9 @@ import { FC } from "react";
 import style from "./GuestForm.module.scss";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { guestData, validationSchema } from "./helpers";
+import {  validationSchema } from "./helpers";
 import CustomInput from "./CustomInput";
+import { Guest } from "../../../interfaces/events";
 
 const GuestForm: FC = () => {
   const {
@@ -11,7 +12,7 @@ const GuestForm: FC = () => {
     handleSubmit,
     formState: { errors },
   } = useForm({ resolver: yupResolver(validationSchema) });
-  const onSubmit = (data: guestData) => console.log(data);
+  const onSubmit = (data: Guest) => console.log(data);
 
   return (
       <form className={style.form} onSubmit={handleSubmit(onSubmit)}>

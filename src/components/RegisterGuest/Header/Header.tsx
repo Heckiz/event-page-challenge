@@ -1,13 +1,14 @@
 import { FC } from 'react'
+import { HeaderData } from '../../../interfaces/events'
 import style from './Header.module.scss'
 
-const Header: FC = () => {
+const Header: FC<{data:HeaderData}> = ({data}) => {
     return (
-        <header className={style.header}>
-        <p className={style.category}>category</p>
-        <h1 className={style.title}>title of webinar</h1>
-        <h4>date </h4>
-        </header>
+        <div className={style.header}>
+        <p className={style.category}>{data.category}</p>
+        <h1 className={style.title}>{data.title}</h1>
+        <h4>{data.date}</h4>
+        </div>
     )
 }
 

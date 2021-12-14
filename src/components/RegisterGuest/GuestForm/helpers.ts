@@ -1,4 +1,5 @@
 import * as Yup from 'yup';
+import { Guest } from '../../../interfaces/events';
 
 export const validationSchema = Yup.object().shape({
   name: Yup.string().required('*The name is required'),
@@ -10,16 +11,7 @@ export const validationSchema = Yup.object().shape({
   
 });
 
-export interface guestData {
-    name: string;
-    lastname: string;
-    email: string;
-    country: string;
-    phone: string;
-    job: string;
-  }
-  
-export const initialValues: guestData = {
+export const initialValues: Guest = {
     name:"",
     lastname:"",
     email:"",
