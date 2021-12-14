@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "headerData":{
+        "title": "El reto de humanizar el CX financiero en 2021",
+        "category": "webinar",
+        "date": "Miercoles 16 de Diciembre | 17 HS (Horario de Quito)"
+      },
+      "eventInfoData":{
+        "parners":["cluster-financiero","asobanva","ipbf","hightelecom", "ebanx", "zendesk"],
+        "details": [
+          "We invite you to this webinar, where we will discuss how to humanize the Banking and Insurance customer experience in the new digital environment.",
+          "We will also be able to learn about the strategies applied by LOREM to generate a memorable experience for its clients, while it became the great unicorn of LATAM.",
+          "Hear first-hand the voice of our specialists"
+        ],
+        "participants": [
+          {
+            "name": "José Perez",
+            "job": "President"
+          },
+          {
+            "name": "Raul Perez",
+            "job": "Senior Customer Success Consultant"
+          },
+          {
+            "name": "Carlos Perez",
+            "job": "Customer Services Senior Manager"
+          }
+        ],
+        "finalMessage":"Participa e inspirate para innovar y mejorar la interacción entre clientes y marcas con historias de exito de empresas del ambito financiero en America Latina.",
+        "guests": []
+      }
+      }
+  ]
+}

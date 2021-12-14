@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes,Route} from "react-router-dom";
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import NotFound from './pages/NotFound';
-import RegisterGuest from './pages/RegiterGuest';
+import EventPage from './pages/EventPage';
+import EventList from './pages/EventsList';
 
 const App: FC = () => {
   return (
@@ -14,13 +15,16 @@ const App: FC = () => {
 
         <article>
         <Routes>
-        <Route path="/register" element={<RegisterGuest/>}/>
+        <Route path="/events" element={<EventList/>}/>
+        <Route path="/events/:id" element={<EventPage/>}/>
         <Route path="*" element={<NotFound/>}/>
         </Routes>
         </article>
+
+
+        <Footer/>
         </Router>
         
-        <Footer/>
 
 
 </>
