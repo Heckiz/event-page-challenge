@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
-import Header from "../../components/RegisterGuest/Header/Header";
+import Header from "../../components/EventComponents/Header/Header";
 import { useAxios } from "../../hooks/useAxios";
 import { RootObject } from "../../interfaces/events";
 import styles from "./styles.module.scss";

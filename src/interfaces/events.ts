@@ -2,6 +2,7 @@ export interface HeaderData {
     title: string;
     category: string;
     date: string;
+    backgroundUrl: string;
 }
 
 export interface Participant {

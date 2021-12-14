@@ -1,18 +1,21 @@
 import { FC } from "react";
-import EventInfo from "../../components/RegisterGuest/EventInfo/EventInfo";
-import Header from "../../components/RegisterGuest/Header/Header";
-import RegisterForm from "../../components/RegisterGuest/GuestForm/GuestForm";
+import EventInfo from "../../components/EventComponents/EventInfo/EventInfo";
+import Header from "../../components/EventComponents/Header/Header";
+import RegisterForm from "../../components/EventComponents/GuestForm/GuestForm";
 import style from "./styles.module.scss";
 import { useParams } from "react-router-dom";
 import { useAxios } from "../../hooks/useAxios";
 
-const RegisterGuest: FC = () => {
+const EventComponents: FC = () => {
+
   const { id } = useParams();
-  console.log(id);
+
   const { response, error, loading } = useAxios({
     method: "GET",
-    url: `./events/${id}`,
+    url: `./events/${id}`
   });
+
+
   return (
     <>
       {loading ? (
@@ -25,7 +28,7 @@ const RegisterGuest: FC = () => {
 
           <section className={style.content}>
             <div className={style.info}>
-              <EventInfo />
+              <EventInfo data={response?.data.eventInfoData} />
             </div>
             <div className={style.form}>
               <RegisterForm />
@@ -37,4 +40,4 @@ const RegisterGuest: FC = () => {
   );
 };
 
-export default RegisterGuest;
+export default EventComponents;

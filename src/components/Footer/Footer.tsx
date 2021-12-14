@@ -6,12 +6,12 @@ const Footer: FC = () => {
             <p className={styles.copyright}>©2021</p>
 
             <div className={styles.socialIcons}>
-                 <img src={'../../../../public/assets/socialIcons/facebook.svg'} alt="facebook"/>
-                 <img src={'../../../../public/assets/socialIcons/instagram.svg'} alt="instagram"/>
-                 <img src={'../../../../public/assets/socialIcons/linkedin.svg'} alt="linkedin"/>
-                 <img src={'../../../../public/assets/socialIcons/twitter.svg'} alt="twitter"/>
-                 <img src={'../../../../public/assets/socialIcons/youtube.svg'} alt="youtube"/>
-                 <img src={'../../../../public/assets/socialIcons/snapchat.svg'} alt="snapchat"/>
+                 <img src={'../../../../assets/socialIcons/facebook.svg'} alt="facebook"/>
+                 <img src={'../../../../assets/socialIcons/instagram.svg'} alt="instagram"/>
+                 <img src={'../../../../assets/socialIcons/linkedin.svg'} alt="linkedin"/>
+                 <img src={'../../../../assets/socialIcons/twitter.svg'} alt="twitter"/>
+                 <img src={'../../../../assets/socialIcons/youtube.svg'} alt="youtube"/>
+                 <img src={'../../../../assets/socialIcons/snapchat.svg'} alt="snapchat"/>
             </div>
         </footer>
     )

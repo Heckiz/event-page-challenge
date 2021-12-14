@@ -15,6 +15,7 @@ const App: FC = () => {
 
         <article>
         <Routes>
+        <Route path="/" element={<EventList/>}/>
         <Route path="/events" element={<EventList/>}/>
         <Route path="/events/:id" element={<EventPage/>}/>
         <Route path="*" element={<NotFound/>}/>
@@ -23,6 +24,7 @@ const App: FC = () => {
 
 
         <Footer/>
+        
         </Router>
         
 

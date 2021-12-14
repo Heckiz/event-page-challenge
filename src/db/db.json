@@ -2,13 +2,21 @@
   "events": [
     {
       "id": 1,
-      "headerData":{
-        "title": "El reto de humanizar el CX financiero en 2021",
+      "headerData": {
+        "title": "The challenge of humanizing the financial CX in 2021",
         "category": "webinar",
-        "date": "Miercoles 16 de Diciembre | 17 HS (Horario de Quito)"
+        "date": "Wednesday December 16 | 17 HS (Quito time)",
+        "backgroundUrl":"https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
       },
-      "eventInfoData":{
-        "parners":["cluster-financiero","asobanva","ipbf","hightelecom", "ebanx", "zendesk"],
+      "eventInfoData": {
+        "parners": [
+          "cluster-financiero",
+          "asobanva",
+          "ipbf",
+          "hightelecom",
+          "ebanx",
+          "zendesk"
+        ],
         "details": [
           "We invite you to this webinar, where we will discuss how to humanize the Banking and Insurance customer experience in the new digital environment.",
           "We will also be able to learn about the strategies applied by LOREM to generate a memorable experience for its clients, while it became the great unicorn of LATAM.",
@@ -28,55 +36,95 @@
             "job": "Customer Services Senior Manager"
           }
         ],
-        "finalMessage":"Participa e inspirate para innovar y mejorar la interacción entre clientes y marcas con historias de exito de empresas del ambito financiero en America Latina.",
-        "guests": [{
-            "name":"Bender",
-            "lastname":"Rodriguez",
-            "email":"bender@ft.com",
-            "country":"Mexico",
-            "phone":"113526487",
-            "job":"Developer"
-        }]
+        "finalMessage": "Participa e inspirate para innovar y mejorar la interacción entre clientes y marcas con historias de exito de empresas del ambito financiero en America Latina.",
+        "guests": [
+          {
+            "name": "Bender",
+            "lastname": "Rodriguez",
+            "email": "bender@ft.com",
+            "country": "Mexico",
+            "phone": "113526487",
+            "job": "Developer"
+          }
+        ]
       }
+    },
+    {
+      "id": 2,
+      "headerData": {
+        "title": "The victory of memes over official speeches",
+        "category": "webinar",
+        "date": "Thursday March 08 | 17 HS (El Salvador Time)",
+        "backgroundUrl":"https://images.pexels.com/photos/3490393/pexels-photo-3490393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
       },
-      {
-        "id": 1,
-        "headerData":{
-          "title": "El reto de humanizar el CX financiero en 2021",
-          "category": "webinar",
-          "date": "Miercoles 16 de Diciembre | 17 HS (Horario de Quito)"
-        },
-        "eventInfoData":{
-          "parners":["cluster-financiero","asobanva","ipbf","hightelecom", "ebanx", "zendesk"],
-          "details": [
-            "We invite you to this webinar, where we will discuss how to humanize the Banking and Insurance customer experience in the new digital environment.",
-            "We will also be able to learn about the strategies applied by LOREM to generate a memorable experience for its clients, while it became the great unicorn of LATAM.",
-            "Hear first-hand the voice of our specialists"
-          ],
-          "participants": [
-            {
-              "name": "José Perez",
-              "job": "President"
-            },
-            {
-              "name": "Raul Perez",
-              "job": "Senior Customer Success Consultant"
-            },
-            {
-              "name": "Carlos Perez",
-              "job": "Customer Services Senior Manager"
-            }
-          ],
-          "finalMessage":"Participa e inspirate para innovar y mejorar la interacción entre clientes y marcas con historias de exito de empresas del ambito financiero en America Latina.",
-          "guests": [{
-              "name":"Bender",
-              "lastname":"Rodriguez",
-              "email":"bender@ft.com",
-              "country":"Mexico",
-              "phone":"113526487",
-              "job":"Developer"
-          }]
-        }
-        }
+      "eventInfoData": {
+        "parners": [
+          "asobanca",
+          "ipbf",
+          "ebanx"
+        ],
+        "details": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis dignissimos consectetur quasi eveniet architecto aliquid.",
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis tempore dolorum corporis incidunt ipsum quis quas corrupti excepturi nemo vero!",
+          "Hear first-hand the voice of our specialists:"
+        ],
+        "participants": [
+          {
+            "name": "Claudio Lopez",
+            "job": "Enginer Software"
+          },
+          {
+            "name": "Alfredo Lopez",
+            "job": "Team Lead"
+          }
+        ],
+        "finalMessage": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, nemo?",
+        "guests": [
+          {
+            "name": "Bender",
+            "lastname": "Rodriguez",
+            "email": "bender@ft.com",
+            "country": "Mexico",
+            "phone": "113526487",
+            "job": "Developer"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "headerData": {
+        "title": "Ntfs and intellectual property",
+        "category": "webinar",
+        "date": "Thursday May 21 | 15 HS",
+        "backgroundUrl":"https://images.pexels.com/photos/310452/pexels-photo-310452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      "eventInfoData": {
+        "parners": [
+          "ebanx"
+        ],
+        "details": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis dignissimos consectetur quasi",
+          "Hear first-hand the voice of our specialists:"
+        ],
+        "participants": [
+          {
+            "name": "Marcos Gonzales",
+            "job": "Enginer Software"
+          }
+        ],
+        "finalMessage": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "guests": [
+          {
+            "name": "Bender",
+            "lastname": "Rodriguez",
+            "email": "bender@ft.com",
+            "country": "Mexico",
+            "phone": "113526487",
+            "job": "Developer"
+          }
+        ]
+      }
+    }
   ]
 }
