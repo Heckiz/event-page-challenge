@@ -1,5 +1,5 @@
 import { FC } from "react";
-import style from "./GuestForm.module.scss";
+import style from "../GuestForm.module.scss";
 import {
   FieldErrors,
   FieldValues,
